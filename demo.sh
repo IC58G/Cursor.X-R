@@ -350,7 +350,7 @@ echo
     echo "1) 是 - 修改MAC地址"
     echo -n "请输入选择 [0-1] (默认 0): "
     read -r choice
-    
+    echo
     # 处理用户输入（包括空输入和无效输入）
     case "$choice" in
         1)
@@ -374,7 +374,7 @@ echo
     echo "0) 否 - 稍后手动启动"
     echo -n "请输入选择 [0-1] (默认 1): "
     read -r choice
-    
+    echo
     case "$choice" in
         0)
             log_info "已跳过启动"
